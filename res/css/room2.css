@@ -1,0 +1,13 @@
+.photo_main {position: relative; text-align: center}
+.photo_main_title {position: relative;left: 0px; bottom: 675px; font-size: 15pt; width 1200px; font-weight: normal;}
+.photo_main_up {position: relative;left: 0px; bottom: 630px;font-size: 15pt;  width: 1200px;font-weight: normal;}
+.grade_1 {text-align: center; cursor: pointer; font-family: NanumGothic, normal, Serif; font-size: 10pt;}
+.grade_2 {text-align: center; cursor: pointer; font-family: NanumGothic, normal, Serif; font-size: 10pt;}
+.grade_3 {text-align: center; cursor: pointer; font-family: NanumGothic, normal, Serif; font-size: 10pt; line-height: 13px;}
+.mychips {color: red; font-size:7pt;}
+#main_title {font-family:NanumGothic, bold, Serif; font-size:25pt;}
+@font-face{
+	font-family:ng;
+	src:local(¡Ø), url(NanumGothic.woff) format(¡®woff¡¯)
+	src:local(¡Ø), url(Athelas.woff) format(¡®woff¡¯)
+}

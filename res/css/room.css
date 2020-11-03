@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+.text-center { text-align:center; }
+h1 { font-family:'Malgun Gothic'; }
+.rbtn { color:yellow; }
+p { font-family:'Malgun Gothic';}
+.wrapper { position:relative; width:1100px; height: 500px; left:0; right:0; margin-left:auto; margin-right:auto;}
+.wrapper > div { position:absolute; }
+.rmiddletop { left: 166px; top:0px; }
+.rmiddlebottom { left:166px; top:100px; }
+.rleftleft { left:50px; top:100px; }
+.rleftright { left:166px; top:176px; }
+.rrightleft { left:857px; top:176px; }
+.rrightright { left:973px; top:100px; }
+
+.rmiddletopb { left: 273px; top:0px; }
+.rmiddlebottomb { left:273px; top:100px; }
+
+.title p, .person p { margin:0; padding:1px 0; }
+.title, .person { margin:0; padding:0; text-align:center; font-size:8.0pt; font-family:'Malgun Gothic';}
+.title { font-weight:700; }
+
+.grade1 .title { background-color:lightseagreen; }
+.grade2 .title { background-color:limegreen; }
+.grade3 .title { background-color:plum; }
+.gradef .title { background-color:darkorange; }
+.grade0 .title { background-color:lightgray; }
+
+.disabled .title { background-color:lightgray; font-weight:normal; }
+.disabled .person { background-color:lightgray; }
+.roomy.pad { background-color:lightgray; }
+
+.room { border:1px solid black; margin:0; padding:0; box-sizing:content-box; }
+
+.roomx { width:45px; /*height:75px;*/ display:table-cell; border-right-width:0; }
+.roomx.right { border-right-width:1px; }
+.roomx.pad { width:30px; border:0; }
+.roomx.bpad { width:45px; border:0; }
+.roomx .title { width:45px; height:15px; top:0px; }
+.roomx .person { width:45px; height:60px; }
+
+.roomy { width:75px; height:60px; display:block; border-bottom-width:0; }
+.roomy.bottom { border-bottom-width:1px; }
+.roomy.pad { height:45px; }
+.roomy .title { width:30px; height:60px; line-height:60px; float:left; }
+.roomy .person { width:45px; height:60px; float:right; }
